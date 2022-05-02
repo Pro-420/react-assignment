@@ -1,0 +1,48 @@
+.search{
+  width: 20vw;
+  margin: 2.5vw;
+}
+.listingPage {
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+  
+.listingPage .tablebody thead tr th {
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #617292;
+  background-color: #ffffff;
+  height: 4em;
+  vertical-align: middle;
+  padding: 1rem 1rem;
+}
+
+.listingPage .tablebody tbody tr {
+  cursor: pointer;
+  border: 5px solid #ffffff;
+}
+
+.listingPage .tablebody tbody tr td {
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.5px;
+  color: #303f5b;
+  background-color: #ecf2ff;
+  vertical-align: middle;
+  padding: 0.5rem;
+  border-bottom: 10px solid white;
+  padding-left: 20px;
+}
+
+.listingPage .ant-table-tbody > tr.ant-table-row:hover > td {
+  background-color: #dfe7f8;
+}
